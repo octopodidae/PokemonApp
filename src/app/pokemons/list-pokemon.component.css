@@ -1,0 +1,28 @@
+summary {
+  /**/
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+summary::-webkit-details-marker {
+  background: white;
+  display: none;
+}
+
+.input-group-text,
+li.list-group-item {
+  cursor: pointer;
+}
+
+[type="radio"]:checked + span::after {
+  background: #99b92c;
+  border: 2px solid #99b92c;
+}
+
+[type="radio"]:checked + span::after,
+.with-gap[type="radio"]:checked + span::before,
+.with-gap[type="radio"]:checked + span::after {
+  border: 2px solid #99b92c;
+}

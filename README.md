@@ -1,2 +1,0 @@
-# PokemonApp
-Created with CodeSandbox

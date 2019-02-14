@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  background: radial-gradient(
+    circle farthest-corner at 0 1100px,
+    #414141,
+    #000
+  );
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center top;
+  background-attachment: fixed;
+}
